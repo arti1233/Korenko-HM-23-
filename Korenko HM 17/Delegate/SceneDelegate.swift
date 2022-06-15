@@ -19,6 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func sceneDidDisconnect(_ scene: UIScene) {
         print(#function)
+        print("Hello world")
     }
     
     func sceneDidBecomeActive(_ scene: UIScene) {
