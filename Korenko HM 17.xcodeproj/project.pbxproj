@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0E4E26283E18AA00A267D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E4E25283E18AA00A267D1 /* AppDelegate.swift */; };
+		AE0E4E28283E18AA00A267D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E4E27283E18AA00A267D1 /* SceneDelegate.swift */; };
+		AE0E4E2A283E18AA00A267D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E4E29283E18AA00A267D1 /* ViewController.swift */; };
+		AE0E4E2D283E18AA00A267D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0E4E2B283E18AA00A267D1 /* Main.storyboard */; };
+		AE0E4E2F283E18AB00A267D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0E4E2E283E18AB00A267D1 /* Assets.xcassets */; };
+		AE0E4E32283E18AB00A267D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0E4E30283E18AB00A267D1 /* LaunchScreen.storyboard */; };
+		AE0E4E3B283E4ECE00A267D1 /* MyCellUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E4E39283E4ECE00A267D1 /* MyCellUITableViewCell.swift */; };
+		AE0E4E3C283E4ECE00A267D1 /* MyCellUITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0E4E3A283E4ECE00A267D1 /* MyCellUITableViewCell.xib */; };
+		AE0E4E40283FAC4800A267D1 /* ViewController + TableView .swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E4E3F283FAC4800A267D1 /* ViewController + TableView .swift */; };
+		AE4626B928479AD900A4CF7D /* CollectionNameFolderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4626B728479AD900A4CF7D /* CollectionNameFolderViewCell.swift */; };
+		AE4626BA28479AD900A4CF7D /* CollectionNameFolderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE4626B828479AD900A4CF7D /* CollectionNameFolderViewCell.xib */; };
+		AE5B8DDA284386450060FC86 /* ViewController + ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B8DD9284386450060FC86 /* ViewController + ImagePicker.swift */; };
+		AE5B8DDD284386B80060FC86 /* ForImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B8DDB284386B80060FC86 /* ForImageTableViewCell.swift */; };
+		AE5B8DDE284386B80060FC86 /* ForImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5B8DDC284386B80060FC86 /* ForImageTableViewCell.xib */; };
+		AE5B8DEC2843F15F0060FC86 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B8DEB2843F15F0060FC86 /* ImageViewController.swift */; };
+		AE5B8DEE2843F16F0060FC86 /* ImageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5B8DED2843F16F0060FC86 /* ImageStoryboard.storyboard */; };
+		AE6A4402284A67AB005CFFAA /* ViewController + CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A4401284A67AB005CFFAA /* ViewController + CollectionView.swift */; };
+		AEF00521284798C00028B8BB /* CollectionImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0051F284798C00028B8BB /* CollectionImageCell.swift */; };
+		AEF00522284798C00028B8BB /* CollectionImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEF00520284798C00028B8BB /* CollectionImageCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE0E4E22283E18AA00A267D1 /* Korenko HM 17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Korenko HM 17.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0E4E25283E18AA00A267D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE0E4E27283E18AA00A267D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE0E4E29283E18AA00A267D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0E4E2C283E18AA00A267D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0E4E2E283E18AB00A267D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0E4E31283E18AB00A267D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0E4E33283E18AB00A267D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0E4E39283E4ECE00A267D1 /* MyCellUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellUITableViewCell.swift; sourceTree = "<group>"; };
+		AE0E4E3A283E4ECE00A267D1 /* MyCellUITableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCellUITableViewCell.xib; sourceTree = "<group>"; };
+		AE0E4E3F283FAC4800A267D1 /* ViewController + TableView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + TableView .swift"; sourceTree = "<group>"; };
+		AE4626B728479AD900A4CF7D /* CollectionNameFolderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionNameFolderViewCell.swift; sourceTree = "<group>"; };
+		AE4626B828479AD900A4CF7D /* CollectionNameFolderViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionNameFolderViewCell.xib; sourceTree = "<group>"; };
+		AE5B8DD9284386450060FC86 /* ViewController + ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + ImagePicker.swift"; sourceTree = "<group>"; };
+		AE5B8DDB284386B80060FC86 /* ForImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForImageTableViewCell.swift; sourceTree = "<group>"; };
+		AE5B8DDC284386B80060FC86 /* ForImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForImageTableViewCell.xib; sourceTree = "<group>"; };
+		AE5B8DEB2843F15F0060FC86 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		AE5B8DED2843F16F0060FC86 /* ImageStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageStoryboard.storyboard; sourceTree = "<group>"; };
+		AE6A4401284A67AB005CFFAA /* ViewController + CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + CollectionView.swift"; sourceTree = "<group>"; };
+		AEF0051F284798C00028B8BB /* CollectionImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionImageCell.swift; sourceTree = "<group>"; };
+		AEF00520284798C00028B8BB /* CollectionImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionImageCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0E4E1F283E18AA00A267D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0E4E19283E18AA00A267D1 = {
+			isa = PBXGroup;
+			children = (
+				AE0E4E24283E18AA00A267D1 /* Korenko HM 17 */,
+				AE0E4E23283E18AA00A267D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0E4E23283E18AA00A267D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E4E22283E18AA00A267D1 /* Korenko HM 17.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0E4E24283E18AA00A267D1 /* Korenko HM 17 */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B8DF12844071C0060FC86 /* Delegate */,
+				AE5B8DF0284406F30060FC86 /* ViewControllers */,
+				AE5B8DEF284406DD0060FC86 /* Storyboard */,
+				AE0E4E3D283E4ED800A267D1 /* Cell */,
+				AE0E4E41283FBE9700A267D1 /* Extension */,
+				AE0E4E2E283E18AB00A267D1 /* Assets.xcassets */,
+				AE0E4E33283E18AB00A267D1 /* Info.plist */,
+			);
+			path = "Korenko HM 17";
+			sourceTree = "<group>";
+		};
+		AE0E4E3D283E4ED800A267D1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B60382844ECE300A9DC38 /* ImageCell */,
+				AE0E4E3E283E4EE200A267D1 /* My cell  */,
+				AEF00523284798CB0028B8BB /* CollectionImageCell */,
+				AE4626BB28479D0E00A4CF7D /* CollectionNameCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AE0E4E3E283E4EE200A267D1 /* My cell  */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E4E39283E4ECE00A267D1 /* MyCellUITableViewCell.swift */,
+				AE0E4E3A283E4ECE00A267D1 /* MyCellUITableViewCell.xib */,
+			);
+			path = "My cell ";
+			sourceTree = "<group>";
+		};
+		AE0E4E41283FBE9700A267D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E4E3F283FAC4800A267D1 /* ViewController + TableView .swift */,
+				AE5B8DD9284386450060FC86 /* ViewController + ImagePicker.swift */,
+				AE6A4401284A67AB005CFFAA /* ViewController + CollectionView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AE4626BB28479D0E00A4CF7D /* CollectionNameCell */ = {
+			isa = PBXGroup;
+			children = (
+				AE4626B728479AD900A4CF7D /* CollectionNameFolderViewCell.swift */,
+				AE4626B828479AD900A4CF7D /* CollectionNameFolderViewCell.xib */,
+			);
+			path = CollectionNameCell;
+			sourceTree = "<group>";
+		};
+		AE5B8DEF284406DD0060FC86 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B8DED2843F16F0060FC86 /* ImageStoryboard.storyboard */,
+				AE0E4E2B283E18AA00A267D1 /* Main.storyboard */,
+				AE0E4E30283E18AB00A267D1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AE5B8DF0284406F30060FC86 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E4E29283E18AA00A267D1 /* ViewController.swift */,
+				AE5B8DEB2843F15F0060FC86 /* ImageViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE5B8DF12844071C0060FC86 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E4E25283E18AA00A267D1 /* AppDelegate.swift */,
+				AE0E4E27283E18AA00A267D1 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AE6B60382844ECE300A9DC38 /* ImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B8DDB284386B80060FC86 /* ForImageTableViewCell.swift */,
+				AE5B8DDC284386B80060FC86 /* ForImageTableViewCell.xib */,
+			);
+			path = ImageCell;
+			sourceTree = "<group>";
+		};
+		AEF00523284798CB0028B8BB /* CollectionImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				AEF0051F284798C00028B8BB /* CollectionImageCell.swift */,
+				AEF00520284798C00028B8BB /* CollectionImageCell.xib */,
+			);
+			path = CollectionImageCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0E4E21283E18AA00A267D1 /* Korenko HM 17 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0E4E36283E18AB00A267D1 /* Build configuration list for PBXNativeTarget "Korenko HM 17" */;
+			buildPhases = (
+				AE0E4E1E283E18AA00A267D1 /* Sources */,
+				AE0E4E1F283E18AA00A267D1 /* Frameworks */,
+				AE0E4E20283E18AA00A267D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Korenko HM 17";
+			productName = "Korenko HM 17";
+			productReference = AE0E4E22283E18AA00A267D1 /* Korenko HM 17.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0E4E1A283E18AA00A267D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AE0E4E21283E18AA00A267D1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AE0E4E1D283E18AA00A267D1 /* Build configuration list for PBXProject "Korenko HM 17" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0E4E19283E18AA00A267D1;
+			productRefGroup = AE0E4E23283E18AA00A267D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0E4E21283E18AA00A267D1 /* Korenko HM 17 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0E4E20283E18AA00A267D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5B8DDE284386B80060FC86 /* ForImageTableViewCell.xib in Resources */,
+				AE0E4E32283E18AB00A267D1 /* LaunchScreen.storyboard in Resources */,
+				AE4626BA28479AD900A4CF7D /* CollectionNameFolderViewCell.xib in Resources */,
+				AE0E4E3C283E4ECE00A267D1 /* MyCellUITableViewCell.xib in Resources */,
+				AE0E4E2F283E18AB00A267D1 /* Assets.xcassets in Resources */,
+				AE0E4E2D283E18AA00A267D1 /* Main.storyboard in Resources */,
+				AEF00522284798C00028B8BB /* CollectionImageCell.xib in Resources */,
+				AE5B8DEE2843F16F0060FC86 /* ImageStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0E4E1E283E18AA00A267D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0E4E2A283E18AA00A267D1 /* ViewController.swift in Sources */,
+				AEF00521284798C00028B8BB /* CollectionImageCell.swift in Sources */,
+				AE6A4402284A67AB005CFFAA /* ViewController + CollectionView.swift in Sources */,
+				AE5B8DDD284386B80060FC86 /* ForImageTableViewCell.swift in Sources */,
+				AE0E4E40283FAC4800A267D1 /* ViewController + TableView .swift in Sources */,
+				AE0E4E3B283E4ECE00A267D1 /* MyCellUITableViewCell.swift in Sources */,
+				AE5B8DDA284386450060FC86 /* ViewController + ImagePicker.swift in Sources */,
+				AE4626B928479AD900A4CF7D /* CollectionNameFolderViewCell.swift in Sources */,
+				AE0E4E26283E18AA00A267D1 /* AppDelegate.swift in Sources */,
+				AE5B8DEC2843F15F0060FC86 /* ImageViewController.swift in Sources */,
+				AE0E4E28283E18AA00A267D1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE0E4E2B283E18AA00A267D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0E4E2C283E18AA00A267D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0E4E30283E18AB00A267D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0E4E31283E18AB00A267D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0E4E34283E18AB00A267D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE0E4E35283E18AB00A267D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0E4E37283E18AB00A267D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Korenko HM 17/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teachmeskills.i32.Korenko-HM-17";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE0E4E38283E18AB00A267D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Korenko HM 17/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teachmeskills.i32.Korenko-HM-17";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0E4E1D283E18AA00A267D1 /* Build configuration list for PBXProject "Korenko HM 17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0E4E34283E18AB00A267D1 /* Debug */,
+				AE0E4E35283E18AB00A267D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0E4E36283E18AB00A267D1 /* Build configuration list for PBXNativeTarget "Korenko HM 17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0E4E37283E18AB00A267D1 /* Debug */,
+				AE0E4E38283E18AB00A267D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0E4E1A283E18AA00A267D1 /* Project object */;
+}
