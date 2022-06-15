@@ -6,11 +6,12 @@
 //
 
 import UIKit
+import KeychainSwift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     var window: UIWindow?
-    
+    let keyChain = KeychainSwift()
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         print(#function)
@@ -30,7 +31,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     func sceneWillEnterForeground(_ scene: UIScene) {
-        if let password = UserDefaults.standard.string(forKey: "password123"), !password.isEmpty{
+        if let password = keyChain.get("password"), !password.isEmpty{
             checkPassword()
         } else {
             addPassword()
@@ -56,7 +57,7 @@ extension SceneDelegate {
         let setPasswordButton = UIAlertAction(title: "Set password", style: .cancel){ _ in
             guard let textField = securityAlert.textFields?[0],
                   let text = textField.text else { return }
-            UserDefaults.standard.set(text, forKey: "password123")
+            self.keyChain.set(text, forKey: "password")
         }
             
             securityAlert.addAction(setPasswordButton)
@@ -76,7 +77,7 @@ extension SceneDelegate {
         let okButtun = UIAlertAction(title: "OK", style: .default) {_ in
             guard let textField = alertController.textFields?[0],
                   let text = textField.text,
-                  let password = UserDefaults.standard.string(forKey: "password123"),
+                  let password = self.keyChain.get("password"),
                   password == text else { return self.wrongPassword() }
         }
         
