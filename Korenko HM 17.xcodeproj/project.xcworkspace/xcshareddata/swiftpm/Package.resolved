@@ -9,6 +9,15 @@
           "revision": "32a99b537d1c6f3529a08257c28a5feb70c0c5af",
           "version": null
         }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": "develop",
+          "revision": "07c5d1f6044701d97e94dc11157259e8811977be",
+          "version": null
+        }
       }
     ]
   },

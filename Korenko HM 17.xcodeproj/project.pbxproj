@@ -25,6 +25,7 @@
 		AE5B8DEE2843F16F0060FC86 /* ImageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5B8DED2843F16F0060FC86 /* ImageStoryboard.storyboard */; };
 		AE6A4402284A67AB005CFFAA /* ViewController + CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A4401284A67AB005CFFAA /* ViewController + CollectionView.swift */; };
 		AE7259EE285A649F00975D83 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AE7259ED285A649F00975D83 /* KeychainSwift */; };
+		AE7259F1285A656A00975D83 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AE7259F0285A656A00975D83 /* SnapKit */; };
 		AEF00521284798C00028B8BB /* CollectionImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0051F284798C00028B8BB /* CollectionImageCell.swift */; };
 		AEF00522284798C00028B8BB /* CollectionImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEF00520284798C00028B8BB /* CollectionImageCell.xib */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE7259EE285A649F00975D83 /* KeychainSwift in Frameworks */,
+				AE7259F1285A656A00975D83 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +200,7 @@
 			name = "Korenko HM 17";
 			packageProductDependencies = (
 				AE7259ED285A649F00975D83 /* KeychainSwift */,
+				AE7259F0285A656A00975D83 /* SnapKit */,
 			);
 			productName = "Korenko HM 17";
 			productReference = AE0E4E22283E18AA00A267D1 /* Korenko HM 17.app */;
@@ -229,6 +232,7 @@
 			mainGroup = AE0E4E19283E18AA00A267D1;
 			packageReferences = (
 				AE7259EC285A649E00975D83 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				AE7259EF285A656A00975D83 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = AE0E4E23283E18AA00A267D1 /* Products */;
 			projectDirPath = "";
@@ -500,6 +504,14 @@
 				kind = branch;
 			};
 		};
+		AE7259EF285A656A00975D83 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -507,6 +519,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AE7259EC285A649E00975D83 /* XCRemoteSwiftPackageReference "keychain-swift" */;
 			productName = KeychainSwift;
+		};
+		AE7259F0285A656A00975D83 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE7259EF285A656A00975D83 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
