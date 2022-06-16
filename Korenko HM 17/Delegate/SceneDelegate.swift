@@ -11,7 +11,8 @@ import KeychainSwift
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     var window: UIWindow?
-    let keyChain = KeychainSwift()
+    var keyChain = KeychainSwift()
+    let keyForPassword = "password"
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         print(#function)
@@ -19,6 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     func sceneDidDisconnect(_ scene: UIScene) {
+        keyChain.clear()
         print(#function)
     }
     
@@ -31,9 +33,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     func sceneWillEnterForeground(_ scene: UIScene) {
-        if let password = keyChain.get("password"), !password.isEmpty{
+        if let password = UserDefaults.standard.string(forKey: keyForPassword), !password.isEmpty {
             checkPassword()
         } else {
+            keyChain.clear()
             addPassword()
         }
     }
@@ -57,7 +60,8 @@ extension SceneDelegate {
         let setPasswordButton = UIAlertAction(title: "Set password", style: .cancel){ _ in
             guard let textField = securityAlert.textFields?[0],
                   let text = textField.text else { return }
-            self.keyChain.set(text, forKey: "password")
+            self.keyChain.set(text, forKey: self.keyForPassword)
+            UserDefaults.standard.set(text, forKey: self.keyForPassword)
         }
             
             securityAlert.addAction(setPasswordButton)
@@ -77,7 +81,7 @@ extension SceneDelegate {
         let okButtun = UIAlertAction(title: "OK", style: .default) {_ in
             guard let textField = alertController.textFields?[0],
                   let text = textField.text,
-                  let password = self.keyChain.get("password"),
+                  let password = self.keyChain.get(self.keyForPassword),
                   password == text else { return self.wrongPassword() }
         }
         
