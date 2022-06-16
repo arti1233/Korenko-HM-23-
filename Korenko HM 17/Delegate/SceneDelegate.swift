@@ -57,7 +57,8 @@ extension SceneDelegate {
             textField.isSecureTextEntry = true
         }
         let cancelButton = UIAlertAction(title: "Cancel", style: .destructive)
-        let setPasswordButton = UIAlertAction(title: "Set password", style: .cancel){ _ in
+        let setPasswordButton = UIAlertAction(title: "Set password", style: .cancel){ [weak self] _ in
+            guard let self = self else { return }
             guard let textField = securityAlert.textFields?[0],
                   let text = textField.text else { return }
             self.keyChain.set(text, forKey: self.keyForPassword)
@@ -78,7 +79,8 @@ extension SceneDelegate {
             textField.isSecureTextEntry = true
         }
         
-        let okButtun = UIAlertAction(title: "OK", style: .default) {_ in
+        let okButtun = UIAlertAction(title: "OK", style: .default) { [weak self] _ in
+            guard let self = self else { return }
             guard let textField = alertController.textFields?[0],
                   let text = textField.text,
                   let password = self.keyChain.get(self.keyForPassword),
